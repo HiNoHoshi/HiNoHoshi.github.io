@@ -20,6 +20,12 @@
 		background-position: center center;
 		padding-top: -20px;
 	}
+	.interfaces{
+		margin-top: 50px;
+	}
+	.interfaces h3{
+		text-align: left;
+	}
 	
 /* Reset */
 
@@ -1606,7 +1612,7 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 400;
-		color: #483949;
+		color: #000000;
 		line-height: 1.25em;
 	}
 
@@ -1757,6 +1763,11 @@
 
 /* Image */
 
+	.interfaces{
+		text-align: center;
+
+	}
+
 	.image {
 		position: relative;
 		display: inline-block;
@@ -1794,6 +1805,10 @@
 				margin: 0 auto;
 				width: auto;
 			}
+
+	.stations{
+		margin-bottom: 50px;
+	}
 
 /* List */
 
@@ -2390,6 +2405,16 @@
 		#main section:first-of-type {
 			padding-top: 2em;
 		}
+
+
+/* IDENTITREE */
+
+	#identiTree h3{
+		font-size: 1.50em;
+    	text-align: center;
+    	margin-bottom: 30px;
+    	margin-top: 50px;
+	}
 
 /* Footer */
 
@@ -3059,5 +3084,5 @@
 					.carousel article .image {
 						margin-bottom: 2em;
 					}
-
 	}
+

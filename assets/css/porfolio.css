@@ -1613,6 +1613,10 @@
 
 			}
 
+			.style1 h2{
+				color: #ffffff !important;
+			}
+
 /* Tiles */
 
 	.tiles {
@@ -1766,7 +1770,7 @@
 					}
 
 			.tiles article.style1 > .image:before {
-				background-color: #f2849e;
+				background-color: #09524d;
 			}
 
 			.tiles article.style2 > .image:before {
