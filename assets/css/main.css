@@ -2439,7 +2439,41 @@
 	#the_how a{
 		margin-bottom: 0;
 	}
-
+	#personality_insights{
+		margin-top: 100px;
+	}
+	#personality_insights h4{
+		margin-bottom: 30px;
+	}
+	#insights h5{
+		text-align: left;
+		margin-left: 20px;
+	}
+	#insights{
+		margin-top: 50px;
+	}
+	#visual_characteristics{
+	margin-top: 50px;
+	}
+	#visual_characteristics h5{
+	text-align: left;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	}
+	#visual_characteristics a{
+		margin-bottom: 20px;
+	}
+	.the_interface{
+		margin-top: 90px;
+	}
+	.the_interface h4{
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+	.the_interface h5{
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
 /* Footer */
 
 	#footer {
