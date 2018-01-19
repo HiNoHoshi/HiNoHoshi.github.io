@@ -2416,6 +2416,30 @@
     	margin-top: 50px;
 	}
 
+	#color_definition{
+		margin-top: 60px;
+	}
+
+	#color_definition h4{
+		text-align: left;
+		margin-bottom: 40px;
+		margin-top: 20px;
+
+	}
+
+	#tone_analysis{
+		margin-top: 80px;
+	}
+	#tone_analysis h4{
+		margin-bottom: 40px;
+	}
+	#the_how{
+		margin-bottom: 100px;
+	}
+	#the_how a{
+		margin-bottom: 0;
+	}
+
 /* Footer */
 
 	#footer {
