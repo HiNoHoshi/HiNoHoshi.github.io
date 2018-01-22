@@ -1588,7 +1588,8 @@
 		color: #5b5b5b;
 		font-size: 15pt;
 		line-height: 1.85em;
-		font-family: 'Source Sans Pro', sans-serif;
+		/*font-family: 'Source Sans Pro', sans-serif; */
+		 font-family: 'Proxima Nova', Georgia, sans-serif;
 		font-weight: 300;
 	}
 
@@ -2218,7 +2219,7 @@
 
 		body.homepage #header:after {
 			content: '';
-			background: #1C0920;
+			background: #1b1b1b;
 			display: block;
 			position: absolute;
 			left: 0;
@@ -2406,6 +2407,55 @@
 			padding-top: 2em;
 		}
 
+
+/* Home */
+	#principal p{
+		margin-top: 20px !important;
+		font-size: 2.0em !important;
+	}
+	.aboutme{
+		padding-top: 200px;
+	}
+	.aboutme h2{
+		margin-left:-127px;
+		text-align: right;
+		font-size: 2.5em;
+		font-weight: bold;
+
+	}
+	.aboutme p{
+		text-align: right;
+		margin-bottom: 0;
+		margin-left:-20px;
+	}
+	.presentation{
+		padding-top: 80px;
+		padding-bottom: 0;
+	}
+	.presentation a{
+		padding-bottom: 0;
+		margin-bottom: -1px !important;
+	}
+
+	#skills{
+		padding-top: 50px;
+		background-color: #1c1c1c;
+	}
+	#skills #banner{
+		background-color: #1c1c1c;
+	}
+	#skills #banner h2, #skills #banner p{
+		color: white;
+	}
+	#skills .carousel article{
+		background-color: #1c1c1c !important;
+	}
+	#skills .carousel article h3{
+		color: white;
+	}
+		#skills .carousel article p{
+		color: white;
+	}
 
 /* IDENTITREE */
 
