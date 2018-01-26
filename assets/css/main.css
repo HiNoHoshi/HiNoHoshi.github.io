@@ -2440,22 +2440,32 @@
 	#skills{
 		padding-top: 50px;
 		background-color: #1c1c1c;
+		padding-bottom: 100px;
 	}
 	#skills #banner{
 		background-color: #1c1c1c;
 	}
-	#skills #banner h2, #skills #banner p{
+	#skills #banner h2{
+		color: white;
+		font-weight: bold;
+		} 
+
+	#skills #banner p{
 		color: white;
 	}
-	#skills .carousel article{
-		background-color: #1c1c1c !important;
-	}
-	#skills .carousel article h3{
+	#skills article h4{
 		color: white;
+		font-size: 1.3em;
+		font-weight: bold;
 	}
-		#skills .carousel article p{
+		#skills article p{
+		font-size: 0.8em;
+		text-align: center;
 		color: white;
+		font-weight: 100 !important;
 	}
+
+
 
 /* IDENTITREE */
 
