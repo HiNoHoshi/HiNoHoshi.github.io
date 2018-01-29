@@ -115,7 +115,7 @@
 	}
 
 	.container {
-		width: 1400px;
+		width: 1080px;
 	}
 
 	@media screen and (max-width: 1680px) {
@@ -139,7 +139,7 @@
 		}
 
 		.container {
-			width: 1200px;
+			width: 1080px;
 		}
 
 	}
@@ -2414,12 +2414,12 @@
 		font-size: 2.0em !important;
 	}
 	.aboutme{
-		padding-top: 200px;
+		padding-top: 150px;
 	}
 	.aboutme h2{
 		margin-left:-127px;
 		text-align: right;
-		font-size: 2.5em;
+		font-size: 2.2em;
 		font-weight: bold;
 
 	}
@@ -2427,6 +2427,7 @@
 		text-align: right;
 		margin-bottom: 0;
 		margin-left:-20px;
+		font-size: 1.3em;
 	}
 	.presentation{
 		padding-top: 80px;
@@ -2464,8 +2465,23 @@
 		color: white;
 		font-weight: 100 !important;
 	}
+	.go_portfolio #banner{
+		background-color: white;
+	}
+	.go_portfolio h3{
+		font-size: 1.8em;
+	}
+	.go_portfolio button{
+    border-radius: 0.2em;
+    font-size: 1.1em;
+    margin-top: 20px;
+	}
 
-
+	.contacto .wrapper {
+    background: #fff;
+    padding: 10em 0 6em 0;
+    min-height: 600px;
+}
 
 /* IDENTITREE */
 
@@ -2538,6 +2554,31 @@
 /*DressApp*/
 	#dressapp a{
 		margin:0;
+	}
+
+	#AgitPov #the_how h3{
+		text-align: left;
+	}
+	#AgitPov #the_how p{
+		padding-bottom: 0px;
+	}
+	.video{
+		width: 100%;
+		margin-top: 50px;
+	}
+
+/*DressApp*/
+
+/*Salva al Páramo*/
+	.el_paramo h3{
+		text-align: left;
+	}
+	.el_paramo p{
+		text-align: left;
+		font-size: 0.8em;
+	}
+	.mapa{
+		margin-top: -250px;
 	}
 
 /* Footer */
