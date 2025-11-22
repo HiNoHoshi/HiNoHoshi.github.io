@@ -2,16 +2,38 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600");
 @import url("font-awesome.min.css");
 
+
 @font-face {
-  font-family: 'book';
+  font-family: 'proxima';
   /* Custom name for your embedded font */
-  src: url('../fonts/CooperHewitt-Book.otf') format('opentype');
+  src: url('../fonts/ProximaNovaAltRegular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'proxima';
+  /* Custom name for your embedded font */
+  src: url('../fonts/ProximaNovaAltBold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'proxima';
+  /* Custom name for your embedded font */
+  src: url('../fonts/ProximaNovaAltBlack.ttf') format('truetype');
+  font-weight: bolder;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'verdana';
+  /* Custom name for your embedded font */
+  src: url('../fonts/Verdana.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 :root{
 	/* Fonts */
-	--font-body: 'cooper', sans-serif
+	--font-body: 'verdana', sans-serif
 }
 /*
 	Helios by HTML5 UP
@@ -46,8 +68,12 @@
 		padding: 0;
 		border: 0;
 		font-size: 100%;
-		font-family: "book", sans-serif;
+		font-family: "verdana";
+		/* font-family: "book", sans-serif; */
 		vertical-align: baseline;
+	}
+	h1, h2, h3, h4, h5, h6 {
+		font-family: "proxima";
 	}
 
 	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -59,7 +85,12 @@
 	}
 
 	ol, ul {
-		list-style: none;
+		/* list-style: none; */
+		padding-left: 1.5rem;
+		margin-block-start: 1em;	
+	}
+	.contacto > ol, ul {
+		list-style: none; 
 	}
 
 	blockquote, q {
@@ -1626,8 +1657,6 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-weight: 400;
-		color: #000000;
 		line-height: 1.25em;
 	}
 
@@ -1643,20 +1672,31 @@
 
 	h2 {
 		font-size: 2.85em;
+		color: #292929;
+		font-weight: bolder;
 	}
 
 	h3 {
-		font-size: 1.25em;
+		font-size: 1.5em;
+		color: #454545;
+		font-weight: bold;
 	}
 
 	h4 {
+		font-size: 1.25em;
+		margin: 0 0 0.25em 0;
+		color: #6d6d6d;
+
+	}
+	h1 {
 		font-size: 1em;
 		margin: 0 0 0.25em 0;
+		color: #888888;
+
 	}
 
 	strong, b {
-		font-weight: 400;
-		color: #483949;
+		font-weight: bold;
 	}
 
 	em, i {
@@ -1701,7 +1741,7 @@
 	}
 
 	p {
-		text-align: justify;
+		text-align: left;
 	}
 
 	br.clear {
@@ -1810,7 +1850,6 @@
 		.image.featured {
 			display: block;
 			width: 100%;
-			margin: 0 0 4em 0;
 		}
 
 		.image.left {
@@ -2524,7 +2563,7 @@
 		margin-bottom: 100px;
 	}
 	#the_how a{
-		margin-bottom: 0;
+		margin-bottom: 1rem;
 	}
 	#personality_insights{
 		margin-top: 100px;
@@ -2841,8 +2880,8 @@
 		/* Basic */
 
 			body, input, textarea, select {
-				font-size: 13pt;
-				line-height: 1.65em;
+				font-size: 12px;
+				line-height: 1.5rem;
 			}
 
 			.tweet {

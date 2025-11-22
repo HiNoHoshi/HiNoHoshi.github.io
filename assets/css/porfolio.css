@@ -1,10 +1,13 @@
 /*@import url(font-awesome.min.css);
 /*@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900");
 
-	
+
 
 /* Grid */
-
+ 	h3{
+		margin-bottom: 1rem;
+		margin-top: 2rem;
+	 }
 	.row {
 		border-bottom: solid 1px transparent;
 		-moz-box-sizing: border-box;
@@ -1614,8 +1617,9 @@
 			}
 
 			.style1 h2{
+				font-size: 1.7rem;
 				color: #ffffff !important;
-				opacity: 0;
+				font-weight: bold;
 			}
 
 
@@ -1630,7 +1634,7 @@
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
-		postiion: relative;
+		position: relative;
 		margin: -2.5em 0 0 -2.5em;
 	}
 
@@ -1777,7 +1781,10 @@
 				text-decoration: none;
 				z-index: 3;
 			}
-
+			.tiles article > b {
+				color: #ffffff;
+				font-weight: 900;
+			}
 				.tiles article > a > :last-child {
 					margin: 0;
 				}
@@ -1807,27 +1814,7 @@
 					}
 
 			.tiles article.style1 > .image:before {
-				background-color: #09524d;
-			}
-
-			.tiles article.style2 > .image:before {
-				background-color: #61147d;
-			}
-
-			.tiles article.style3 > .image:before {
-				background-color: #7bd0c1;
-			}
-
-			.tiles article.style4 > .image:before {
-				background-color: #c75b9b;
-			}
-
-			.tiles article.style5 > .image:before {
-				background-color: #ae85ca;
-			}
-
-			.tiles article.style6 > .image:before {
-				background-color: #8499e7;
+				background-color: #1b1111;
 			}
 
 			body:not(.is-touch) .tiles article:hover > .image {
@@ -1839,21 +1826,21 @@
 
 				body:not(.is-touch) .tiles article:hover > .image:after {
 					background-color: #000000;
-					opacity: 0.55;
+					opacity: 0.8;
 				}
 
 				body:not(.is-touch) .tiles article:hover > .image:before {
-					opacity: 0;
+					opacity: .3;
 				}
 
 			body:not(.is-touch) .tiles article:hover .content {
 				max-height: 15em;
 				opacity: 1;
 			}
-
+/* 
 		* + .tiles {
-			margin-top: 2em;
-		}
+			margin-top: 1em;
+		} */
 
 		body.is-loading .tiles article {
 			-moz-transform: scale(0.9);
@@ -1926,3 +1913,4 @@
 				}
 
 		}
+
